@@ -1,0 +1,79 @@
+/* Sliders */
+main.empresa .slider
+{
+    height: 400px!important;
+
+}
+main.empresa .slider img
+{
+    max-height: 400px!important;
+}
+
+main.empresa .slider .indicators
+
+{
+z-index: 9;
+bottom: 12px;
+}
+
+
+main.empresa .slider .indicators .indicator-item.active
+
+{background-color: #FFF;opacity: 0.8;width: 10px;height: 10px;}
+
+
+main.empresa .caption
+
+{left: 10%!important;top: 20%!important;width: 45%!important;}
+
+
+main.empresa .slider .slides li .caption {width: 40%!important;top: 22%!important;left: 5%!important;padding: 2rem;line-height: 1.2;}
+
+@media only screen and (max-width: 810px) 
+
+{
+    main.empresa .slider .slides li .caption
+    {
+        width: 90%!important;
+        top: 35%!important;
+    }
+
+    main.empresa .fs28
+
+    {
+        font-size: 19px!important;
+    }
+
+    main.empresa .fs68
+
+    {
+        font-size: 42px!important;
+    }  
+}
+
+@media (min-width: 811px) and (max-width: 1024px) and (orientation: landscape) 
+
+{
+
+    .slider .slides li .caption 
+
+    {
+
+    width: 80%!important;
+    left: 20%;
+
+    }
+    
+    main.empresa div .fs28
+
+    {
+        font-size: 26px!important;
+    }
+
+    main.empresa .fs68
+
+    {
+        font-size: 55px!important;
+    }   
+
+}

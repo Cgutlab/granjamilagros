@@ -1,0 +1,10 @@
+.tabs .indicator
+{
+	background-color: #711817;
+}
+
+.tabs .tab a
+{
+	color: #CB6532;
+	font-weight: bold;
+}
